@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <title>Nike. Just Do It. Nike PH</title>
+
+
+</head>
+<body>
+    <section>
+    <div class="header">
+        <nav class="first-nav">
+            <img src="images/jordan_logo-removebg-preview.png" class="jordan">
+            <ul>
+                <li><a href="" class="one">Find a Store </a> | </li>
+                <li><a href="" class="two"> Help </a> | </li>
+                <li><a href="" class="three"> Join Us </a> | </li>
+                <li><a href="" class="four">  Sign in</a></li>
+            </ul>
+        </nav>
+
+        <nav class="second-nav">
+            <img src="images/nike_logo-removebg-preview.png" class="nike-logo">
+            <ul>
+                <li><a href="" class="five">New & Featured</a></li>
+                <li><a href="" class="six">Men</a></li>
+                <li><a href="" class="seven">Women</a></li>
+                <li><a href="" class="eight">Kids</a></li>
+                <li><a href="" class="nine">Sale</a></li>
+                <li><a href="" class="ten">Customise</a></li>
+                <li><a href="" class="eleven">SNKRS</a></li>
+                <input  class="Search" type="text" placeholder= "Search">
+            </ul>
+            <ion-icon name="heart-empty"></ion-icon>
+            <ion-icon class="src-icon" name="search"></ion-icon>
+
+
+        </nav>
+    </div>
+
+        
+   
+
+    <div class="shopsport">
+        <h1> Shop by Sport</h1>
+    </div>
+
+    <div class="gallery-wrapper">
+    <div class="gallery-shop">
+       <div>
+            <span><img src="/images/1.jpeg"></span>
+            <span><img src="/images/2.jpeg"></span>
+           <span><img src="/images/3.jpeg"></span>
+            <span><img src="/images/7.jpeg"></span>
+          <span><img src="/images/4.jpeg"></span>
+          <span><img src="/images/6.jpeg"></span>
+          <span><img src="/images/8.jpeg" class="last"></span>
+
+        </div>
+        <img src="images/backto.png" class="back" id="back">
+        <img src="images/forward.png" class="forward" id=" forward">
+        
+    </div>
+    </div>
+    
+
+
+    <script> 
+            let scrollContainer = document.querySelector(".gallery");
+            let backBtn = document.getElementById("back");
+            let nextBtn = document.getElementById("forward");
+
+            scrollContainer.style.scrollBehavior = "smooth";
+
+            nextBtn.addEventListener("click", () =>{scrollContainer.scrollLeft +=
+            900; 
+            scrollContainer.style.scrollBehavior = "smooth";
+            });
+
+            backBtn.addEventListener("click", () =>{scrollContainer.scrollLeft -=
+            900;
+            scrollContainer.style.scrollBehavior = "smooth";
+            });
+
+
+
+    
+    </script>
+
+
+
+</section>
+
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>  
+</body>
+</html>

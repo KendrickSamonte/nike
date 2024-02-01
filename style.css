@@ -1,0 +1,1105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 1000vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.header {
+    height: 15vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: inherit;
+}
+
+.first-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0px;
+    position: relative;
+    text-rendering: auto;
+    text-align: center;
+    background: #f5f5f5;
+    width: 100%;
+    list-style: none;
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.jordan {
+    width: 20px;
+    height: 20px;
+    margin-left: 3.1rem;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.jordan:hover {
+    opacity: 0.5;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+.first-nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #111;
+    font-weight: bolder;
+    
+}
+
+.first-nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.one {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.two {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.three {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.four {
+    padding-left: 8px;
+    padding-right: 3rem;
+}
+
+
+
+.second-nav {
+    display: flex;
+    background: #fff ;
+    justify-content: center;
+    padding: 13px 30px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    align-items: center;
+   
+}
+
+.nike-logo {
+    width: 70px;
+    height: 30;
+    position: absolute;
+    left: 2.7rem ;
+    margin-top: -30px;
+    cursor: pointer;
+
+}
+
+.nike-logo:hover {
+    opacity: 0.5;
+}
+
+
+
+.second-nav ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #333;
+    margin-right: 30px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    text-align: center;
+    justify-content: center;
+    top: 100px;
+    margin-left: -0.2rem;
+
+}
+
+.second-nav ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+    opacity: 0.5;
+}
+
+.src-icon {
+    position: fixed;
+    right: 14.5rem;
+}
+ 
+
+.Search {
+    border-radius: 30px;
+    padding: 10px 10px;
+    width: 10rem;
+    margin-left: 3rem;
+    background: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -10px;
+    outline: none;
+    text-align: center;
+}
+
+.Search:hover {
+    background: #F0EAD6;
+    
+}
+
+nav ion-icon {
+    width: 30px;
+    height: 3rem;
+    position: absolute;
+    margin-right: 10px;
+    border-radius: 180px;
+    padding: 2px 12px;
+    cursor: pointer;
+    right: 6rem;
+   
+
+}
+
+nav ion-icon:hover {
+    background: #F0EAD6;   
+}
+
+.nav .drop-menu {
+    background: #242526;
+    width: 180px;
+}
+
+
+.title {
+    width: 100%;
+    background: #f5f5f5;
+    text-align: center;
+    height: 10vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.line {
+    padding: 0px 0px ;
+  
+   
+    width: 100%;
+    position: relative;
+    margin-right: 100rem;
+   
+}
+
+.line h1 {
+    font-size: 15px;
+    width: 35rem;
+}
+
+.line:first-child {
+    animation: anim 60s infinite;
+}
+
+
+
+@keyframes anim {
+    0%{
+        margin-left: 25rem;
+    }
+    15%{
+        margin-left: -110rem;
+    }
+    30%{
+        margin-left: -245rem;
+    }
+    45%{
+        margin-left: -380rem;
+    }
+    60%{
+        margin-left: -515rem;
+    }
+    75%{
+        margin-left: -380rem;
+    }
+    90%{
+        margin-left: -245rem;
+    }
+    100%{
+        margin-left: 25rem;
+    }    
+}
+
+.line p {
+    font-size: 13px;
+}
+
+.line a {
+    color: #111;
+    font-size: 13px;
+
+}
+
+
+
+.front {
+    position: relative;
+}
+
+.front img {
+    width: 93%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.src-icon {
+    width: 22px;
+    border-radius: 50%;
+    padding: 0px 15px;
+    position: absolute;
+    right: 18rem;
+}
+
+.celebration {
+    cursor: pointer;
+}
+
+.celebration h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: -1px;
+    margin-top: 2.3rem;
+}
+
+.celebration p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.join-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 17px;
+    width: 100px;
+    padding: 10px 18px;
+    border-radius: 30px;
+    border: none;
+    background: #111;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    opacity: 0.8;
+}
+
+.latest {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 7rem;
+}
+
+.run-vid {
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 97%;
+}
+
+.run-title {
+text-align: center;
+margin-top: 3rem;
+font-weight: 500;
+letter-spacing: -1px;
+cursor: pointer;
+}
+
+.run-title h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.run-title p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 1rem;
+}
+
+.run-title button {
+    margin-top: 2rem;
+    width: 160px;
+    padding: 11px 18px;
+    border-radius: 30px;
+    border: none;
+    background: #111;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.run-title button:hover {
+    opacity: 0.8;
+}
+
+.just-in {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.just-in h1{
+    margin-top: 7rem;
+    margin-left: 50px;
+    font-weight: 100;
+
+}
+
+.just-in img {
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 620px;
+}
+
+.two-img {
+    position: absolute;
+    width: 38.5rem; 
+    height: 38.5rem;
+    left: 50px;
+}
+
+
+
+@keyframes imagefade {
+    0% {
+        opacity:1;
+      }
+      17% {
+        opacity:1;
+      }
+      25% {
+        opacity:0;
+      }
+      92% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+}
+
+
+.three-img {
+    position: absolute;
+    width: 38.5rem; 
+    height: 38.5rem;
+    left: 50px;
+    animation-name: imagefade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+}
+
+.four-img {
+    position: absolute;
+    width: 38.5rem; 
+    height: 38.5rem;
+    left: 50px;
+    animation-name: imagefade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+.five-img {
+    position: absolute;
+    width: 38.5rem;
+    height: 38.5rem;
+    right: 50px;
+
+}
+
+.just-in {
+    cursor: pointer;
+}
+.just-in p{
+    position: absolute;
+    left: 90px;
+    top: 30rem;
+    font-size: 20px;
+}
+
+.just-in button {
+    position: absolute;
+    left: 100px;
+    top: 33rem;
+    width: 120px;
+    padding: 10px 10px;
+    font-size: 17px;
+    background: #111;
+    color: #F0EAD6;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.just-in button:hover {
+    opacity: 0.5;
+}
+
+.inside p {
+    position: relative;
+    left: 46rem;
+    top: 26.5rem;
+    font-size: 17px;
+    color: #F0EAD6;
+
+}
+
+.inside h2 {
+    position: relative;
+    left: 46rem;
+    top: 27rem;
+    font-size: 20px;
+    color: #F0EAD6;
+}
+
+.inside button {
+    position: relative;
+    left: 46rem;
+    top: 28rem;
+    font-size: 20px;
+    color: #111;
+    background: #f5f5f5;
+    padding: 10px 8px;
+    width: 80px;
+    font-size: 17px;
+}
+
+.trending {
+    position: relative;
+    margin-top: 40rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.trending h1 {
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 100;
+
+}
+
+.trending img {
+    width: 93%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.zoom {
+    text-align: center;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.zoom h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.zoom p{
+    margin-top: 20px;
+    font-weight: 200;
+}
+.zoom button {
+    width: 90px;
+    padding: 10px 10px;
+    font-size: 17px;
+    background: #111;
+    color: #F0EAD6;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 40px;
+    
+}
+
+.zoom button:hover{
+    opacity: 0.8;
+}
+
+.featured {
+    margin-left: 50px;
+    margin-top: 5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.featured h1 {
+    font-weight: 100;
+}
+
+.featured img {
+    width: 565px;
+    height: 42rem;
+    margin-top: 2rem;
+
+}
+
+.featured p {
+    position: absolute;
+    top: 34.5rem;
+    left: 3rem;
+    font-size: 17px;
+    color: #F0EAD6;
+    font-weight: bold;
+}
+
+.featured h2 {
+    position: absolute;
+    top: 36rem;
+    left: 3rem;
+    font-size: 20px;
+    color: #F0EAD6;
+}
+
+.featured button {
+    position: absolute;
+    top: 39rem;
+    left: 3rem;
+    font-size: 20px;
+    color: #111;
+    width: 90px;
+    padding: 10px 10px;
+    font-size: 17px;
+    border-radius: 18px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.featured button:hover {
+    opacity: 0.8;
+}
+.inside-ftr {
+    position: absolute;
+    left: 41.5rem;
+    top: 26.5rem;
+    font-size: 17px;
+    color: #F0EAD6;
+    text-align: center;
+}
+
+.inside-ftr p {
+    position: absolute;
+    left: -50px;
+    top: 8rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F0EAD6;
+    width: 100px;
+}
+
+.inside-ftr h2 {
+    position: absolute;
+    left: -95px;
+    top: 9.6rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F0EAD6;
+    width: 400px;
+}
+
+.inside-ftr button {
+    position: absolute;
+    left: -44px;
+    top: 12.5rem;
+    font-size: 17px;
+    font-weight: bold;
+    width: 90px;
+}
+
+.miss {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.miss h1{
+    font-weight: 100;
+}
+
+.miss img {
+    width: 1140px;
+    margin-top: 2rem;
+
+}
+
+.jordan-men {
+    position: relative;
+    text-align: center;
+    top: 54rem;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.jordan-men p {
+    font-weight: 500;
+}
+
+.jordan-men h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 75px;
+    letter-spacing: -1px;
+    margin-top: -10px;
+}
+
+.jordan-men button {
+    font-size: 20px;
+    color: #f5f5f5;
+    width: 90px;
+    padding: 10px 10px;
+    font-size: 17px;
+    border-radius: 18px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    background: #111;
+}
+
+.jordan-men button:hover {
+    opacity: 0.8;
+}
+
+.iconic h1 {
+    margin-left: 50px;
+    margin-top: 60rem;
+    position: absolute;
+    font-weight: 100;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    margin-left: 42px;
+    margin-right: 100px;
+}
+
+.gallery a{
+    text-decoration: none;
+    color: grey;
+}
+
+.gallery a:hover {
+    opacity: 0.9;
+}
+
+.gallery div {
+    width: 2200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-column-gap: 5px;
+    margin-top: 63rem;
+    flex: none;
+    margin-right: 80px;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.gallery div img {
+    width: 300px;
+    transition: transform 0.5s  ;
+    
+    
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+#back {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 71rem;
+}
+
+.forward {
+    position: absolute;
+    margin-top: 71rem;
+    cursor: pointer;
+    right: 4rem;
+}
+
+.shopsport h1 {
+    margin-left: 50px;
+    font-weight: 100;
+    margin-top: 6rem;
+}
+
+.gallery div img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-shop {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    margin-left: 42px;
+    margin-right: 100px;
+}
+
+.gallery-shop a{
+    text-decoration: none;
+    color: grey;
+}
+
+.gallery-shop a:hover {
+    opacity: 0.9;
+}
+
+.gallery-shop div {
+    width: 2200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-column-gap: 5px;
+    margin-top: 2rem;
+    flex: none;
+    margin-right: 80px;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.gallery-shop div img {
+    width: 420px;
+    transition: transform 0.5s;
+    
+    
+}
+
+.gallery-shop::-webkit-scrollbar {
+    display: none;
+}
+
+#back-btn {
+    position: absolute;
+    cursor: pointer;
+    right: 7rem;
+    margin-top: -2.5rem;
+}
+
+#forward-btn {
+    position: absolute;
+    margin-top: -2.5rem;
+    cursor: pointer;
+    right: 4rem;
+}
+
+.gallery-shop div img:hover {
+    transform: scale(1.1);
+}
+
+div span {
+    line-height: 30px;
+}
+div span h1 {
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.sp {
+    border-bottom: 1px solid #111;
+    line-height: 5rem;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+.sp:hover {
+    opacity: 0.5;
+}
+
+.essentials {
+    margin-top: 6rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+.essentials h1{
+    font-weight: 100;
+    font-size: 25px;
+    width: 100%;
+    
+}
+
+.essentials img {
+    margin-top: 2rem;
+    width:372px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.essentials button {
+    width: 100px;
+    padding: 10px 10px;
+    font-size: 17px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.essentials a{
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+.es-one {
+    position: relative;
+    top: -5rem;
+    left: 3rem;
+
+}
+
+.es-two {
+    position: relative;
+    top: -5rem;
+    left: 20rem;
+}
+
+.es-three {
+    position: relative;
+    top: -5rem;
+    left: 37rem;
+}
+
+.essentials button:hover {
+    opacity: 0.8;
+}
+
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 7rem;
+    text-align: start;
+    line-height: 40px;
+    margin-bottom: 5rem;
+    height: 155px;
+    overflow: hidden;
+    transition: .5s ease;
+    position: relative;
+    top: 1rem;
+}
+
+.last-col {
+    margin-top: 14rem;
+}
+
+.last-coll {
+    margin-top: 11.5rem;
+}
+
+.last-colll {
+    margin-top: 11.5rem;
+}
+
+.last-collll {
+    margin-top: 11.5rem;
+}
+
+.last h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.last:hover {
+    margin-top: -10rem;
+    height: 400px;
+    overflow: visible;
+}
+
+
+
+.last ul li a {
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.container {
+    max-width: 1170px;
+    margin-left: 10px;
+    height: 180px;
+}
+.footer {
+    background: #111;
+    padding: 70px 0;
+    color: #f5f5f5;
+    line-height: 30px;
+    margin-top: 8rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.footer-col h4{
+    font-size: 12px;
+    font-weight: 700;
+   
+}
+
+
+.fa {
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: relative;
+    left: 58rem;
+    bottom: 12rem;
+
+    
+
+}
+
+.fa-facebook {
+    background: #333;
+  color: white;
+}
+
+.fa-twitter {
+    background: #333;
+  color: white;
+}
+
+.fa-youtube {
+    background: #333;
+  color: white;
+}
+
+.fa-instagram {
+    background: #333;
+  color: white;
+}
+
+
+.credits {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.credits p {
+    font-size: 11px;
+    position: relative;
+    right: 17rem;
+}
+
+.phi {
+    font-size: 16px;
+}
+.cr {
+    margin-left: 20px;
+    color: grey;
+}
+
+ul h4 a {
+    color: #F0EAD6;
+    text-decoration: none;
+}
+
+.credits ul {
+    display: flex;
+    padding: 0px 30px;
+   gap: 40px;
+}
+
+.credits ul a {
+    font-size: 14px;
+    left: 12rem;
+    position: relative;
+}
+
+
+
+
+
+
+@keyframes move {
+    37.5% {
+     left: calc(50%-25px); opacity: 1s; -webkit-filter: opacity(1); }
+     75% { left: calc(50%-25px); opacity: 1;}
+     85% { left: 80%;opacity: 0;}
+     100% { opacity: 0;}     
+    }
